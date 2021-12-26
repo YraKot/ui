@@ -2,6 +2,7 @@
   "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
+  "bin": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -45,21 +46,21 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "farades-ui-components",
+  "name": "@yrkot/faradesco-ui-components",
   "author": "yrkot",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YraKot/ui.git"
+    "url": "git+https://github.com/YraKot/ui.git"
   },
   "homepage": "https://github.com/YraKot/ui",
-  "module": "dist/farades-ui-components.esm.js",
+  "module": "dist/@yrkot/faradesco-ui-components.esm.js",
   "size-limit": [
     {
-      "path": "dist/farades-ui-components.cjs.production.min.js",
+      "path": "dist/@yrkot/faradesco-ui-components.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/farades-ui-components.esm.js",
+      "path": "dist/@yrkot/faradesco-ui-components.esm.js",
       "limit": "10 KB"
     }
   ],
