@@ -1,0 +1,10 @@
+image: node:latest
+pipelines:
+  branches:
+    master:
+      - step:
+          caches:
+            - node
+          script: 
+            - rm -rf node_modules && yarn install --frozen-lockfile
+            - yarn test
